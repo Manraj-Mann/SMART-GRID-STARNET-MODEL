@@ -39,11 +39,15 @@ Code/       # Source code, notebooks, and web-based GUI
    pip install -r Code/requirements.txt
    ```
 
-3. **Run the web-based system**
+3. **Run the provided Jupyter notebook**
+   - Open `Code/smart-grid-research-paper.ipynb` in Jupyter Notebook, JupyterLab, or VS Code.
+   - **Update the dataset path** in the notebook to point to your local copy of the dataset (e.g., replace `/kaggle/input/smart-grid-stability/smart_grid_stability_augmented.csv` with the correct path).
+   - Run all cells sequentially to reproduce the results and figures.
+
    ```bash
-   # Example command
-   python Code/app.py
-   # Or follow instructions in Code/README.md
+   # Example: launch Jupyter in the Code directory
+   cd Code
+   jupyter notebook
    ```
 
 ---
