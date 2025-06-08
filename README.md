@@ -103,7 +103,7 @@ Code/       # Source code, notebooks, and web-based GUI
 ## 📬 Contact
 
 For questions or collaboration, please contact the corresponding author:  
-**Amit Chhabra** – [amitchhabra@ccet.ac.in](mailto:amitchhabra@ccet.ac.in)
+**Dr. Sudhakar Kumar** – [sudhakar@ccet.ac.in](mailto:sudhakar@ccet.ac.in)
 
 ---
 
