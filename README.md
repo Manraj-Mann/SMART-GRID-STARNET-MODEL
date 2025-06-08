@@ -1,4 +1,4 @@
-# StarNet Ensemble: A Web-Based Stacking Ensemble Framework for Smart Grid Stability ⚡
+# Improving Predictive Reliability and Automation of Smart Grids Using the StarNet Ensemble Model ⚡
 
 > **Enhancing Predictive Reliability and Automation for Smart Grids with Machine Learning**
 
