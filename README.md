@@ -1,16 +1,77 @@
-# StarNet Ensemble: Enhancing Predictive Reliability and Automation for Smart Grids Web-Based Systems
+# StarNet Ensemble: A Web-Based Stacking Ensemble Framework for Smart Grid Stability ⚡
 
-## Overview
-
-This repository contains the code and datasets for the research paper:
-
-**StarNet Ensemble: Enhancing Predictive Reliability and Automation for Smart Grids Web-Based Systems**
-
-The StarNet Ensemble framework leverages advanced ensemble learning techniques to improve predictive reliability and automation in smart grid web-based systems. The project aims to provide robust, scalable, and efficient solutions for modern smart grid challenges.
+> **Enhancing Predictive Reliability and Automation for Smart Grids with Machine Learning**
 
 ---
 
-## Authors
+## 📝 Overview
+
+**StarNet Ensemble** introduces a comprehensive, web-based framework featuring an integrated machine-learning-driven GUI for predicting smart grid stability. Leveraging a stacking-based ensemble learning approach, this system is designed to ensure reliable and effective electricity distribution within smart grids.
+
+---
+
+## 🧑‍🔬 Abstract
+
+Maintaining stability in smart grids is critical for modern energy systems. This work presents the StarNet Model—a stacking ensemble integrated into a web-based platform for real-time, automated stability prediction and management. The framework utilizes a synthetic dataset derived from a 4-node star network (60,000 data points, 12 features, 2 targets), enabling robust predictive modeling and comparative evaluation. Achieving a prediction accuracy of 99.43%, the system supports real-time monitoring, predictive maintenance, and automated grid services (e.g., load shedding, demand response) via an interactive GUI, empowering stakeholders to optimize operations and minimize outages.
+
+---
+
+## 📁 Repository Structure
+
+```
+Dataset/    # Synthetic smart grid datasets
+Code/       # Source code, notebooks, and web-based GUI
+```
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/StarNet-Ensemble.git
+   cd StarNet-Ensemble
+   ```
+
+2. **Install dependencies**
+   ```bash
+   # Example for Python projects
+   pip install -r Code/requirements.txt
+   ```
+
+3. **Run the web-based system**
+   ```bash
+   # Example command
+   python Code/app.py
+   # Or follow instructions in Code/README.md
+   ```
+
+---
+
+## 📊 Dataset Description
+
+- **Source:** Synthetic, generated from a 4-node star network with consumer node variations.
+- **Size:** 60,000 samples
+- **Features:** 12 main predictive features (e.g., reaction times, nominal power, price elasticity)
+- **Targets:** 2 dependent variables (system stability status)
+- **Purpose:** Supports predictive modeling and evaluation within the web-based framework.
+
+---
+
+## 🏆 Results Summary
+
+- **StarNet stacking ensemble model** achieved:
+  - **Accuracy:** 99.43%
+  - **Robustness:** Outperformed traditional and advanced ML models
+- **Key Advantages:**
+  - Real-time, web-based monitoring and prediction
+  - Automated grid services (load shedding, demand response)
+  - Predictive maintenance and reduced operational costs
+  - Interactive GUI for stakeholders
+
+---
+
+## 👥 Authors
 
 | Name                | Affiliation                                                                 | Email                               |
 |---------------------|-----------------------------------------------------------------------------|-------------------------------------|
@@ -28,33 +89,23 @@ The StarNet Ensemble framework leverages advanced ensemble learning techniques t
 
 ---
 
-## Repository Structure
+## 📚 Citation
 
-- [`Dataset/`](Dataset/)  
-  Contains datasets used in the experiments.
-- [`Code/`](Code/)  
-  Contains code and notebooks for model development and evaluation.
+> **Note:** This paper is currently **unpublished** and subject to change.  
+> Please contact the authors before citing or referencing this work.
 
 ---
 
-## Results
+## 📬 Contact
 
-The results demonstrate that ensemble and deep learning models significantly outperform traditional machine learning algorithms in predicting smart grid stability. The **StarNet stacking ensemble model** achieved the highest overall performance, with an accuracy of 99.42%, precision of 99.63%, recall of 99.47%, F1-score of 99.55%, AUC-ROC of 99.41%, and specificity of 99.35%. Other advanced models such as CatBoost, AdaBoost, and SVM also exhibited strong results, but the StarNet model consistently led across all metrics, highlighting its robustness and reliability for smart grid applications.
-
----
-
-## Getting Started
-
-Instructions for setting up and running the code will be provided here.
+For questions or collaboration, please contact the corresponding author:  
+**Amit Chhabra** – [amitchhabra@ccet.ac.in](mailto:amitchhabra@ccet.ac.in)
 
 ---
 
-## Citation
+## 📝 License
 
-If you use this code or dataset in your research, please cite:
+This project is licensed under the MIT License.  
+See [LICENSE](LICENSE) for details.
 
 ---
-
-## License
-
-This project is for academic and research purposes only.
